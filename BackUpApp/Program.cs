@@ -26,6 +26,7 @@ namespace BackUpApp
 
             var serviceCollection = new ServiceCollection();
 
+
             serviceCollection.AddSingleton<IGitHubService, GitHubService>();
             serviceCollection.AddSingleton<IGitHubRepository, GitHubRepository>();
 
